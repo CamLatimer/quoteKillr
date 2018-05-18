@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Quote Killr",
+  "version": "1.0",
+  "description": "Converts curly quotes to straight quotes",
+  "background": {
+    "persistent": false,
+    "scripts": ["bg.js"]
+  },
+  "browser_action": {
+    "default_title": "",
+    "default_popup": "popup.html"
+  }
+}
